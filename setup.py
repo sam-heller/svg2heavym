@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="svg2heavym", # Replace with your own username
+    name="svg2heavym",
     version="0.0.1",
     author="Sam Heller",
     author_email="sam@faitaccomp.li",
@@ -21,5 +21,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Topic :: Utilities"
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
 )
